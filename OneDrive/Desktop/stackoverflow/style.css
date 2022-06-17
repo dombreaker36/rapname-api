@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Roboto:wght@300;400;500;700&family=Ubuntu&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background: #fff;
+    color: #454ADE;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+    display: flex;
+    padding: 5px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+input {
+    display: block;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input::placeholder {
+    font-size: 20px;
+    color: #aaaa;
+}
+
+input:focus {
+    outline-style: outset;
+    outline-color: #777bd8;
+    outline-width: 3px;
+}
+
+label {
+    padding: 10px 0;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+}
+
+.pg-signUp a:hover {
+    color: #454ADE;
+}
+
+.container {
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.btn {
+    text-align: center;
+    padding: 10px;
+    background-color: #454ADE;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #1a1c61;
+}
+
+.btn1 {
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid skyblue;
+    color: #333;
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    background-color: #aaaa;
+}
+
+.btn1 i {
+    padding-right: 5px;
+    color: #db3236;
+}
+
+.btn2 {
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+}
+
+.btn2:hover {
+    background-color: #555;
+}
+
+.btn2 i {
+    padding-right: 5px;
+}
+
+.btn3 {
+    display: block;
+    text-align: center;
+    background-color: #1a1c61;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn3 i {
+    padding-right: 5px;
+}
+
+.btn-block {
+    display: flex;
+    justify-content: center;
+}
+
+.btn3:hover {
+    background-color: #454ADE;
+}
+
+.orange i {
+    color: orange;
+    font-size: 30px;
+}
+
+.form {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    padding: 10px;
+    background: #EBEBEB;
+    border-radius: 5px;
+}
+
+.input-icons i {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.form p {
+    font-size: medium;
+    text-align: left;
+    color: #a1a1a1;
+    margin-bottom: 10px;
+}
+
+
+/* Question Page */
+
+header {
+    padding: 10px;
+    max-width: 1280px;
+    background: steelblue;
+}
+
+.navbar {
+    display: flex;
+    padding: 2px;
+}
+
+.navbar button {
+    border: none;
+    background-color: #fff;
+    font-size: 30px;
+    text-align: left;
+    height: 0;
+    padding-right: 5px;
+}
+
+.navbar h2 {
+    margin: 0 auto;
+    padding: 5px;
+    color: orange;
+}
+
+.navbar label {
+    display: flex;
+    padding: 10px;
+    color: #333;
+}
+
+.navbar input {
+    display: inline;
+    padding: 5px;
+    width: 300px;
+}
+
+.black {
+    color: #000;
+}
+
+.container-2 {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    max-width: 1200px;
+}
+
+.head {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+}
+
+.head h2 {
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.head button {
+    background-color: #454ADE;
+    border: none;
+    border-radius: 5px;
+    grid-column: 6;
+    padding: 10px;
+    color: #fff;
+    box-shadow: 0 0 15px #aaa;
+}
+
+.head button:hover {
+    background: #1a1c61;
+}
+
+.head-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+}
+
+.head-2 h3 {
+    grid-column: 1;
+    padding: 5px;
+}
+
+.head-2 .sort {
+    grid-column: 2;
+    display: flex;
+    color: #555;
+}
+
+.head-2 .sort p {
+    border: 1px solid #333;
+    background: #555;
+    color: #fff;
+    padding: 10px;
+}
+
+.head-2 button {
+    background-color: skyblue;
+    border: none;
+    grid-column: 6;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px #aaa;
+    padding: 10px;
+}
+
+.head-2 button:hover {
+    background: #777bd8;
+}
+
+.header {
+    border-bottom: 1px solid #aaaa;
+    padding: 10px;
+}
+
+.main {
+    margin: auto;
+    padding: 10px;
+}
+
+.main .vav {
+    display: flex;
+    padding: 10px;
+}
+
+.main .vav h4 {
+    padding: 5px;
+}
+
+.main p {
+    text-align: left;
+}
+
+.main a:hover {
+    color: #454ADE;
+}
