@@ -1,0 +1,18 @@
+{
+    "name": "rap-names-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cli": "^1.0.1",
+        "express": "^4.18.1",
+        "heroku": "^7.60.2",
+        "nodemon": "^2.0.18"
+    }
+}
